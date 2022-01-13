@@ -20,7 +20,7 @@ for(let i=0;i<numbers.length;i++ )
 {
 a=a+numbers[i];
 }
-return total;
+return a;
 }
 
 
@@ -47,7 +47,7 @@ function find_smaller_number(a, b){
 
 function find_smallest_number(numbers){
 
-    let a= numbers[0];
+    let a= 100;
     for(let i=0;i<numbers.length;i++ )
     {
       if(numbers[i]<a)
