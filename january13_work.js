@@ -47,7 +47,7 @@ function find_smaller_number(a, b){
 
 function find_smallest_number(numbers){
 
-    let a= 100;
+    let a= numbers[0];
     for(let i=0;i<numbers.length;i++ )
     {
       if(numbers[i]<a)
