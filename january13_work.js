@@ -67,7 +67,11 @@ function find_smallest_number(numbers){
 **/
 
 function abbreviate(word, length){
-
+let answer=" ";
+for(let i=0;i<word.length;i++){
+answer = answer + word[i];
+}
+return answer;
 }
 
 
